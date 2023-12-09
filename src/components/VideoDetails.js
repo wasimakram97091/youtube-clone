@@ -62,10 +62,10 @@ function VideoDetails({ videoId }) {
             <p className="font-semibold text-base bg-slate-100 px-3 py-1 rounded-full cursor-pointer hover:bg-slate-200 xs:font-normal xs:text-xs xs:px-1 sm:px-2 md:text-base">
               <i className="fa-solid fa-download"></i> dawnload
             </p>
-            <p className="font-semibold text-base bg-slate-100 px-3 py-1 rounded-full cursor-pointer hover:bg-slate-200 xs:font-normal xs:text-xs xs:px-1 sm:px-2 md:text-base">
+            <p className="font-semibold text-base bg-slate-100 px-3 py-1 rounded-full cursor-pointer hover:bg-slate-200 xs:font-normal xs:text-xs xs:px-1 sm:px-2 md:text-base xs:hidden sml:block">
               <i className="fa-solid fa-scissors"></i> Clip
             </p>
-            <p className="font-semibold text-base bg-slate-100 px-3 py-1 rounded-full cursor-pointer hover:bg-slate-200 xs:font-normal xs:text-xs xs:px-1 sm:px-2 sm:hidden sml:block md:text-base">
+            <p className="font-semibold text-base bg-slate-100 px-3 py-1 rounded-full cursor-pointer hover:bg-slate-200 xs:font-normal xs:text-xs xs:px-1 sm:px-2 xs:hidden sml:block md:text-base">
               <i className="fa-solid fa-ban"></i> Stop ads
             </p>
           </div>

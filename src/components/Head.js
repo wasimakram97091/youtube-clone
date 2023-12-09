@@ -85,7 +85,7 @@ const Head = () => {
     dispatch(closeMenu());
   };
   return (
-    <div className="flex justify-between items-center p-1  xs:sticky xs:top-0 xs:bg-white xs:z-50 xs:flex-col xs:p-0 xs:pb-5 lg:pb-0 md:flex-row md:gap-5 md:pl-2 md:pr-4">
+    <div className="flex justify-between items-center p-1  xs:sticky xs:top-0 xs:bg-white xs:z-50 xs:flex-col xs:p-0 xs:pb-5 xs:px-3 lg:pb-0 md:flex-row md:gap-5 md:pl-2 md:pr-4">
       <div className="flex items-center xs:w-full xs:justify-between md:w-3/12 md:justify-start sm:px-3 sm:w-full md:px-0">
         {isMenuOpen ? (
           <img

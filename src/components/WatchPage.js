@@ -15,11 +15,11 @@ function WatchPage() {
   useEffect(() => {}, [searchParams]);
   return (
     <>
-      <div className="flex flex-col py-3 px-5 w-full xs:w-[280px] xs:px-0 xs:m-auto sm:w-[375px] sml:w-[500px] md:w-[667px] mdl:w-[768px] lg:w-[992px] xl:w-[1280px]">
+      <div className="flex flex-col py-3 px-5 w-full xs:w-[320px] xs:px-0 xs:m-auto sm:w-[375px] sml:w-[500px] md:w-[667px] mdl:w-[768px] lg:w-[992px] xl:w-[1280px]">
         <div>
-          <div className="xs:w-[280px]">
+          <div className="xs:w-[320px]">
             <iframe
-              className="xs:w-[280px] sm:w-[375px] sm:h-[250px] sml:w-[500px] sml:h-[300px] md:w-[667px] mdl:w-[768px] mdl:h-[500px] lg:w-[992px] xl:w-[1280px] xl:h-[600px]"
+              className="xs:w-[320px] sm:w-[375px] sm:h-[250px] sml:w-[500px] sml:h-[300px] md:w-[667px] mdl:w-[768px] mdl:h-[500px] lg:w-[992px] xl:w-[1280px] xl:h-[600px]"
               src={"https://www.youtube.com/embed/" + searchParams.get("v") + "?&autoplay=1"}
               title="YouTube video player"
               frameBorder="0"

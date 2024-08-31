@@ -100,7 +100,7 @@ const CommentsList = ({ comments }) => {
 function CommentContainer({ commentCount }) {
   return (
     <>
-      <div className="xs:w-[280px] sm:w-[375px] sml:w-[500px] md:w-[667px] mdl:w-[768px] lg:w-[992px]">
+      <div className="xs:w-[320px] sm:w-[375px] sml:w-[500px] md:w-[667px] mdl:w-[768px] lg:w-[992px]">
         <h1 className="text-xl font-bold py-5 xs:text-base xs:font-medium xs:py-4 sm:text-lg">
           {commentCount} Comments{" "}
           <span className="font-normal ml-5 text-base xs:ml-2 xs:text-xs sm:text-lg ">

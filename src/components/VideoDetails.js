@@ -37,7 +37,7 @@ function VideoDetails({ videoId }) {
 
   return (
     <>
-      <div className="xs:w-[280px] sm:w-[375px] sml:w-[500px] md:w-[667px] mdl:w-[768px] lg:w-[992px] mdl:px-4">
+      <div className="xs:w-[320px] sm:w-[375px] sml:w-[500px] md:w-[667px] mdl:w-[768px] lg:w-[992px] mdl:px-4">
         <h1 className="text-xl font-semibold my-3 xs:text-xs xs:font-medium xs:my-1 sml:text-base sml:font-semibold sml:my-2 sm:text-base md:text-lg lg:text-2xl">{title}</h1>
         <div className="flex justify-between items-center my-5 xs:flex-wrap xs:my-2">
           <div className="flex items-center gap-3 xs:justify-between sm:gap-8">
